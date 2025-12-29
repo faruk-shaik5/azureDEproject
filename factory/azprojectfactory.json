@@ -1,0 +1,9 @@
+{
+	"name": "azprojectfactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c63b7a2b-4861-46e3-acba-f6ad54d45b04",
+		"tenantId": "4e0577c6-6cfd-4fe7-8970-46545e4c04f8"
+	}
+}
