@@ -1,0 +1,18 @@
+{
+	"name": "ls_lake",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://azdeprojectlake.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_vault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "lake-key"
+			}
+		}
+	}
+}
