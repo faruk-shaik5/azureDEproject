@@ -5,6 +5,18 @@
 		"factoryName": {
 			"value": "azprojectfactory"
 		},
+		"ls_lake_properties_typeProperties_url": {
+			"value": "https://azdeprojectlake.dfs.core.windows.net"
+		},
+		"ls_sqldb_properties_typeProperties_server": {
+			"value": "deprojectserver.database.windows.net"
+		},
+		"ls_sqldb_properties_typeProperties_database": {
+			"value": "sourcedb"
+		},
+		"ls_sqldb_properties_typeProperties_userName": {
+			"value": "Faruk"
+		},
 		"ls_vault_properties_typeProperties_baseUrl": {
 			"value": "https://kv-az-vault.vault.azure.net/"
 		},
